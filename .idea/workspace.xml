@@ -4,34 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c917b891-a6ad-493c-a27f-66c1d29ad97d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/calculator/MainCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicAppium/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicAppium/CalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicAppium/WhenDoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/AppiumControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/control/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevice/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevice/FactoryDevices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevice/FireFoxOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevice/IDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevice/Ios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/session/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="c917b891-a6ad-493c-a27f-66c1d29ad97d" name="Changes" comment="test CalendarTest &amp; CalculatorTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basicAppium/CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicAppium/CalendarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,10 +195,25 @@
       <workItem from="1698447337163" duration="6079000" />
       <workItem from="1698516736548" duration="5377000" />
       <workItem from="1698523264977" duration="598000" />
+      <workItem from="1698538380780" duration="724000" />
+      <workItem from="1698682017252" duration="361000" />
     </task>
+    <task id="LOCAL-00001" summary="test CalendarTest &amp; CalculatorTest">
+      <option name="closed" value="true" />
+      <created>1698538509464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698538509464</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test CalendarTest &amp; CalculatorTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="test CalendarTest &amp; CalculatorTest" />
   </component>
 </project>

@@ -42,7 +42,7 @@ public class CalendarTest {
         phone.findElement(By.id("com.samsung.android.calendar:id/lottieView")).click();
 
         // v
-        phone.findElement(By.xpath("//android.view.View[@content-desc=\" \" and @text=\"2023-10-28\"]")).click();
+        phone.findElement(By.xpath("//android.view.View[@content-desc=\" \" and @text=\"2023-10-30\"]")).click();
 
         Assertions.assertTrue( phone.findElements(By.xpath("//android.widget.TextView[@text='"+evento+"']")).size() >= 1,
                 "ERROR ! no se creo la tarea");
