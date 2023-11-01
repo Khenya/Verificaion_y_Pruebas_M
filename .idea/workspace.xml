@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c917b891-a6ad-493c-a27f-66c1d29ad97d" name="Changes" comment="test CalendarTest &amp; CalculatorTest">
+    <list default="true" id="c917b891-a6ad-493c-a27f-66c1d29ad97d" name="Changes" comment="test CalendarTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/AlarmScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/HoursScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/MainScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/MinutesScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/SearchWorldClockScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/contact/ContactDetailScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/contact/CreateContactScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/contact/MainScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/whendo/AddTaskScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/whendo/MyListScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/ContactTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/Whendo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/clockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basicAppium/CalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basicAppium/CalendarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factoryDevice/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryDevice/Android.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +65,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CalendarTest.verifyCalendarTest">
-    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.clockTest.verifyCreateNewHours">
+    <configuration name="ContactTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -65,7 +79,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;testSuite.CalculatorTest&quot;" />
+            <option value="&quot;testSuite.ContactTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -76,7 +90,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.verifyCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="clockTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +103,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;basicAppium.CalculatorTest.verifyCalculatorTest&quot;" />
+            <option value="&quot;testSuite.clockTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -100,7 +114,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalendarTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="clockTest.verifyCreateContact" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +127,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;basicAppium.CalendarTest&quot;" />
+            <option value="&quot;testSuite.clockTest.verifyCreateContact&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,7 +138,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalendarTest.verifyCalendarTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="clockTest.verifyCreateNewHours" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +151,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;basicAppium.CalendarTest.verifyCalendarTest&quot;" />
+            <option value="&quot;testSuite.clockTest.verifyCreateNewHours&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -148,7 +162,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="WhenDoTest.verifyCreateTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="clockTest.verifyDelateAlarm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -161,7 +175,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;basicAppium.WhenDoTest.verifyCreateTask&quot;" />
+            <option value="&quot;testSuite.clockTest.verifyDelateAlarm&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalendarTest.verifyCalendarTest" />
-        <item itemvalue="Gradle.CalendarTest" />
-        <item itemvalue="Gradle.CalculatorTest" />
-        <item itemvalue="Gradle.CalculatorTest.verifyCalculatorTest" />
-        <item itemvalue="Gradle.WhenDoTest.verifyCreateTask" />
+        <item itemvalue="Gradle.clockTest.verifyCreateNewHours" />
+        <item itemvalue="Gradle.clockTest.verifyDelateAlarm" />
+        <item itemvalue="Gradle.clockTest" />
+        <item itemvalue="Gradle.clockTest.verifyCreateContact" />
+        <item itemvalue="Gradle.ContactTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +210,10 @@
       <workItem from="1698516736548" duration="5377000" />
       <workItem from="1698523264977" duration="598000" />
       <workItem from="1698538380780" duration="724000" />
-      <workItem from="1698682017252" duration="361000" />
+      <workItem from="1698682017252" duration="465000" />
+      <workItem from="1698700761486" duration="4900000" />
+      <workItem from="1698762824681" duration="1927000" />
+      <workItem from="1698790255978" duration="9037000" />
     </task>
     <task id="LOCAL-00001" summary="test CalendarTest &amp; CalculatorTest">
       <option name="closed" value="true" />
@@ -206,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698538509464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test CalendarTest">
+      <option name="closed" value="true" />
+      <created>1698682470309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698682470309</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +239,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test CalendarTest &amp; CalculatorTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="test CalendarTest &amp; CalculatorTest" />
+    <MESSAGE value="test CalendarTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="test CalendarTest" />
   </component>
 </project>

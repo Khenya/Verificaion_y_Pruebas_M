@@ -13,8 +13,19 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","adnrod11");
         capabilities.setCapability("platformVersion","11.0");
-        capabilities.setCapability("appPackage","com.dencreak.dlcalculator");
-        capabilities.setCapability("appActivity","com.dencreak.dlcalculator.DLCalculatorActivity");
+//       calculadora
+//        capabilities.setCapability("appPackage","com.dencreak.dlcalculator");
+//        capabilities.setCapability("appActivity","com.dencreak.dlcalculator.DLCalculatorActivity");
+ //Whendo
+//        capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
+//        capabilities.setCapability("appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
+//        // contactos
+//        capabilities.setCapability("appPackage","com.android.contacts");
+//        capabilities.setCapability("appActivity","com.android.contacts.activities.PeopleActivity");
+// clock
+        capabilities.setCapability("appPackage","com.google.android.deskclock");
+        capabilities.setCapability("appActivity","com.android.deskclock.DeskClock");
+
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
 
